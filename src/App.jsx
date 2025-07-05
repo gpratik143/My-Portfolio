@@ -159,7 +159,11 @@ const Portfolio = () => {
           <div className={`text-center transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <div className="relative inline-block mb-8">
               <div className="w-32 h-32 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-white">
-                <User size={64} className="text-white" />
+                <img
+                 src = "C:\My Portfolio\My-Portfolio\Pratik_pp.png"
+                  alt = "Pratik Gupta"
+                  className='w-full h-full object-cover'
+                  />
               </div>
               <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-400 rounded-full flex items-center justify-center">
                 <span className="text-xs font-bold text-black">👋</span>
@@ -170,7 +174,7 @@ const Portfolio = () => {
               Pratik Gupta
             </h1>
             <p className="text-xl sm:text-2xl text-gray-300 mb-6">
-              AI/ML Engineer & Full Stack Developer
+              AI/ML Engineer & Data Analyst
             </p>
             <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
               Passionate about creating intelligent solutions and building impactful applications. 
