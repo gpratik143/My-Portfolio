@@ -160,7 +160,7 @@ const Portfolio = () => {
             <div className="relative inline-block mb-8">
               <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-white mx-auto mb-6">
                 <img
-                 src = "/Pratik_pp.png"
+                  src={`${import.meta.env.BASE_URL}Pratik_pp.png`}
                   alt = "Pratik Gupta"
                   className='w-full h-full object-cover'
                   />
