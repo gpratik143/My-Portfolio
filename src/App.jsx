@@ -22,25 +22,25 @@ const Portfolio = () => {
       title: "Pic2D-Pic3D",
       description: "PyTorch implementation of 3D-aware Conditional Image Synthesis. Synthesizes 3D objects (neural fields) from 2D label maps.",
       tech: ["Python", "PyTorch", "Neural Fields", "3D Synthesis"],
-      github: "#"
+      github: "https://github.com/gpratik143/Pic2D-Pic3D"
     },
     {
       title: "Realtime Chat Application",
       description: "WhatsApp-style chat GUI with server-client architecture using Java Swing and socket programming.",
       tech: ["Java", "Swing", "Socket Programming", "GUI"],
-      github: "#"
+      github: "https://github.com/gpratik143/ChatApplication-GUI"
     },
     {
       title: "Face Recognition Attendance System",
       description: "Automated attendance system using face recognition technology for seamless user identification.",
       tech: ["Python", "OpenCV", "Face Recognition", "ML"],
-      github: "#"
+      github: "https://github.com/gpratik143/AttendanceBy-Face-Recognition"
     },
     {
       title: "Virtual Paint App",
       description: "Interactive virtual painting application using computer vision and hand tracking.",
       tech: ["Python", "MediaPipe", "OpenCV", "NumPy"],
-      github: "#"
+      github: "https://github.com/gpratik143/Virtual-Paint-App"
     }
   ];
 
@@ -158,9 +158,9 @@ const Portfolio = () => {
         <div className="max-w-7xl mx-auto">
           <div className={`text-center transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <div className="relative inline-block mb-8">
-              <div className="w-32 h-32 bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-white">
+              <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-white mx-auto mb-6">
                 <img
-                 src = "C:\My Portfolio\My-Portfolio\Pratik_pp.png"
+                 src = "/Pratik_pp.png"
                   alt = "Pratik Gupta"
                   className='w-full h-full object-cover'
                   />
@@ -188,8 +188,16 @@ const Portfolio = () => {
               </div>
               <div className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full border border-gray-700">
                 <Mail size={16} />
-                <span>gpratik154@gmail.com</span>
+                <a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCDlgqjdqcgJPxlsHDrtchRSbHPqjvJlVTKBMljsvGdzmCBhmMQtVBwPSjfRnKJgJSsGzL"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+                >
+                gpratik154@gmail.com
+                </a>
               </div>
+
               <div className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full border border-gray-700">
                 <MapPin size={16} />
                 <span>Guna, M.P</span>
@@ -197,11 +205,11 @@ const Portfolio = () => {
             </div>
 
             <div className="flex justify-center gap-4">
-              <a href="#" className="bg-white text-black hover:bg-gray-200 px-6 py-3 rounded-full flex items-center gap-2 transition-colors font-medium">
+              <a href="https://github.com/gpratik143" className="bg-white text-black hover:bg-gray-200 px-6 py-3 rounded-full flex items-center gap-2 transition-colors font-medium">
                 <Github size={16} />
                 <span>GitHub</span>
               </a>
-              <a href="#" className="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-full flex items-center gap-2 transition-colors border border-gray-700">
+              <a href="https://www.linkedin.com/in/pratikgupta999/" className="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-full flex items-center gap-2 transition-colors border border-gray-700">
                 <Linkedin size={16} />
                 <span>LinkedIn</span>
               </a>
@@ -384,11 +392,11 @@ const Portfolio = () => {
               <Mail size={20} />
               <span>Email Me</span>
             </a>
-            <a href="#" className="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-full flex items-center gap-2 transition-colors border border-gray-700">
+            <a href="https://www.linkedin.com/in/pratikgupta999/" className="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-full flex items-center gap-2 transition-colors border border-gray-700">
               <Linkedin size={20} />
               <span>LinkedIn</span>
             </a>
-            <a href="#" className="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-full flex items-center gap-2 transition-colors border border-gray-700">
+            <a href="https://github.com/gpratik143" className="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-full flex items-center gap-2 transition-colors border border-gray-700">
               <Github size={20} />
               <span>GitHub</span>
             </a>
